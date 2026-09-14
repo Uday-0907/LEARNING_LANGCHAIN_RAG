@@ -1,0 +1,31 @@
+AI AND LANGCHAIN
+
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. These tasks include understanding language, learning from data, reasoning, problem solving, decision making, and generating content.
+
+LangChain is a framework used to build applications powered by Large Language Models (LLMs). It helps developers connect AI models with external data, tools, databases, APIs, documents, and other software components.
+
+LangChain can be used to create AI chatbots, question-answering systems, document analysis applications, retrieval-augmented generation (RAG) systems, AI agents, and intelligent assistants.
+
+A basic LangChain application usually consists of an AI model, prompts, data sources, and processing logic. The user provides a question or instruction, LangChain manages the interaction with the language model, and the model generates a response.
+
+One important use of LangChain is Retrieval-Augmented Generation (RAG). In a RAG system, documents are loaded and divided into smaller pieces called chunks. These chunks can be converted into vector representations and stored in a vector database. When a user asks a question, relevant information is retrieved and provided to the AI model so that it can generate a more useful and context-aware answer.
+
+LangChain also supports AI agents. An agent can decide which tools it needs to use to complete a task. For example, an AI agent could use a calculator, search system, database, or API before generating its final response.
+
+Common components used in LangChain applications include:
+1. Language Models – Generate and understand natural language.
+2. Prompts – Instructions given to the AI model.
+3. Document Loaders – Load information from files and other sources.
+4. Text Splitters – Divide large documents into smaller sections.
+5. Embeddings – Convert text into numerical representations.
+6. Vector Stores – Store and search document embeddings.
+7. Retrievers – Find relevant information from stored data.
+8. Tools – Allow AI systems to interact with external systems.
+9. Agents – Allow AI to decide which tools or actions are required.
+10. Chains – Connect multiple processing steps together.
+
+Advantages of LangChain include easier integration with different AI models, support for external data and tools, reusable components, and the ability to build complex AI applications.
+
+Applications of LangChain include AI chatbots, personal assistants, document question-answering systems, customer support systems, educational assistants, knowledge-base search systems, and business automation.
+
+In conclusion, LangChain provides a development framework for building applications around modern language models. It is especially useful when an AI application needs to work with external information, tools, databases, or multiple processing steps.
